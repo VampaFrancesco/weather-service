@@ -1,9 +1,11 @@
-package com.example.demo;
+package tech.aesys.finale;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients
 public class WeatherAppApplication {
 
 	public static void main(String[] args) {
