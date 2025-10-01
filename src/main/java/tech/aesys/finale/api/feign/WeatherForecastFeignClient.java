@@ -3,11 +3,12 @@ package tech.aesys.finale.api.feign;
 import org.springframework.cloud.openfeign.FeignClient;
 import tech.aesys.finale.api.feign.config.WeatherFeignConfig;
 import tech.aesys.finale.swagger.api.CurrentJsonApi;
+import tech.aesys.finale.swagger.api.ForecastJsonApi;
 
-@FeignClient(name = "WeatherCurrentFeignClient",
+@FeignClient(name = "WeatherForecastFeignClient",
         url = "${weather.api.url.current}",
         configuration = WeatherFeignConfig.class
 )
-public interface WeatherCurrentFeignClient extends CurrentJsonApi {
-
+public interface WeatherForecastFeignClient extends ForecastJsonApi
+{
 }
