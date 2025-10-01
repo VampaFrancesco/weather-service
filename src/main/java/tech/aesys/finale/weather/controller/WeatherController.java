@@ -1,9 +1,9 @@
-package tech.aesys.finale.controller;
+package tech.aesys.finale.weather.controller;
 
 
 import org.springframework.web.bind.annotation.*;
-import tech.aesys.finale.service.CurrentWeatherService;
-import tech.aesys.finale.service.ForecastWeatherService;
+import tech.aesys.finale.weather.service.CurrentWeatherService;
+import tech.aesys.finale.weather.service.ForecastWeatherService;
 import tech.aesys.finale.swagger.model.ForecastWeather200Response;
 import tech.aesys.finale.swagger.model.RealtimeWeather200Response;
 

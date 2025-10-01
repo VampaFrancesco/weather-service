@@ -1,4 +1,4 @@
-package tech.aesys.finale.service;
+package tech.aesys.finale.weather.service;
 
 import org.springframework.stereotype.Service;
 import tech.aesys.finale.swagger.model.RealtimeWeather200Response;

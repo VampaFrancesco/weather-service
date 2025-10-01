@@ -1,9 +1,9 @@
-package tech.aesys.finale.service;
+package tech.aesys.finale.weather.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import tech.aesys.finale.api.feign.WeatherForecastFeignClient;
+import tech.aesys.finale.weather.api.feign.WeatherForecastFeignClient;
 import tech.aesys.finale.swagger.model.ForecastWeather200Response;
 
 

@@ -1,4 +1,4 @@
-package tech.aesys.finale.api.feign.config;
+package tech.aesys.finale.weather.api.feign.config;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

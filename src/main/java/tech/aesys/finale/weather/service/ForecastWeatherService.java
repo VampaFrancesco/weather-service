@@ -1,4 +1,4 @@
-package tech.aesys.finale.service;
+package tech.aesys.finale.weather.service;
 
 
 import tech.aesys.finale.swagger.model.ForecastWeather200Response;
