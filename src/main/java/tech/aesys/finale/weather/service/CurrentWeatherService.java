@@ -1,7 +1,7 @@
 package tech.aesys.finale.weather.service;
 
 import org.springframework.stereotype.Service;
-import tech.aesys.finale.swagger.model.RealtimeWeather200Response;
+import tech.aesys.finale.weather.swagger.model.RealtimeWeather200Response;
 
 
 public interface CurrentWeatherService {

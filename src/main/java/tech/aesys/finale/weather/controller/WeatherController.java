@@ -4,8 +4,8 @@ package tech.aesys.finale.weather.controller;
 import org.springframework.web.bind.annotation.*;
 import tech.aesys.finale.weather.service.CurrentWeatherService;
 import tech.aesys.finale.weather.service.ForecastWeatherService;
-import tech.aesys.finale.swagger.model.ForecastWeather200Response;
-import tech.aesys.finale.swagger.model.RealtimeWeather200Response;
+import tech.aesys.finale.weather.swagger.model.ForecastWeather200Response;
+import tech.aesys.finale.weather.swagger.model.RealtimeWeather200Response;
 
 @RestController("WeatherController")
 @RequestMapping("/api")

@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import tech.aesys.finale.weather.api.feign.WeatherForecastFeignClient;
-import tech.aesys.finale.swagger.model.ForecastWeather200Response;
+import tech.aesys.finale.weather.swagger.model.ForecastWeather200Response;
 
 
 @Service

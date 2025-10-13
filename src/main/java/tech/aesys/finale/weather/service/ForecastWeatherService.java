@@ -1,7 +1,7 @@
 package tech.aesys.finale.weather.service;
 
 
-import tech.aesys.finale.swagger.model.ForecastWeather200Response;
+import tech.aesys.finale.weather.swagger.model.ForecastWeather200Response;
 
 public interface ForecastWeatherService {
 
